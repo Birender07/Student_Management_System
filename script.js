@@ -83,7 +83,6 @@ function onDelete(td) {
   document.querySelector("table").deleteRow(row.rowIndex);
   students.splice(row.rowIndex + 1, 1);
   resetForm();
-  studentID--;
 }
 
 function OnButtonClick(event) {
